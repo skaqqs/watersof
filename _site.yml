@@ -1,0 +1,23 @@
+name: "Waters of"                            
+output_dir: "."
+navbar:
+  title: "Waters of"                              
+  type: inverse
+  left:
+    - text: "Articles"
+      icon: fa fa-database
+      href: articles.html
+    - text: "Products"
+      icon: fa fa-envelope-o
+      href: products.html 
+    - text: "About Us"
+      icon: fa fa-envelope-o
+      href: aboutus.html
+
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    toc_float: TRUE
+    
+      
